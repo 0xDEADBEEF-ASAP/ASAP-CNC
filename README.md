@@ -1,2 +1,15 @@
-# ASAP-CNC
-STM32H7 &amp; TMC5160 : FULL SPI CNC CONTROLLER
+# ASAP-CNC (project is under early stage of developement)
+
+# What? Why? How?
+
+ASAP-CNC is complete, minimalistic, written from scratch system that can control up to 5 axis in real time.
+
+All released software out there uses step/dir signals. ASAP-CNC use TMC5160 in MODE 1 instead, (with embedded motion controller) without step/dir signals (only SPI interface).
+
+# System
+- responsive (!) multiplatform g-code sender, writen in python (using only native modules)
+- real time g-code interpreter for STM32H7, writen in C
+- stepper motor drivers TMC5160 in MODE 1
+
+
+# Futures
