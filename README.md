@@ -11,5 +11,8 @@ All released software out there uses step/dir signals. ASAP-CNC use TMC5160 in M
 - real time g-code interpreter for STM32H7, writen in C
 - stepper motor drivers TMC5160 in MODE 1
 
+# Gallery
+![](https://raw.githubusercontent.com/0xDEADBEEF-ARM/ASAP-CNC/main/ASAP-TMC-ADVANCED.gif)
+
 
 # Futures
