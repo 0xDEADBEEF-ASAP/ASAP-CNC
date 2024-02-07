@@ -16,3 +16,18 @@ All released software out there uses step/dir signals. ASAP-CNC use TMC5160 in M
 
 
 # Futures
+
+## G-CODE SENDER
+
+---G-CODE---
+Automatic connection and re-connection even if different serial port is opened.
+
+---JOG---
+---MACHINE---
+---TMC-SIMPLE---
+---TMC-ADVANCED---
+Sequential TMC-DRIVER programming - registers are programmed in order and single register can be re-programmed multiple times during single driver setup.
+
+
+
+
