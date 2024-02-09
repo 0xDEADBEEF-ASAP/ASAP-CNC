@@ -48,6 +48,7 @@ Change Rsens resistors R022 according to this table:
 For best performance feed TMC5160 driver with common clock source up to 18 MHz (16MHz optimal).
 Remove R10 and connect to pads clock source (50% duty cycle).
 
+# LINKS & SORURCES
 [TMC5160-DATASEET]
 
 https://www.analog.com/media/en/technical-documentation/data-sheets/TMC5160A_datasheet_rev1.18.pdf
