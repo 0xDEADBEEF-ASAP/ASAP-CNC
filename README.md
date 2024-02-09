@@ -44,6 +44,7 @@ Change Rsens resistors R022 according to this table:
 
 ![](https://raw.githubusercontent.com/0xDEADBEEF-ARM/ASAP-CNC/main/RSENS.png)
 [1]
+For 1.5A rated stepper motor the 0.22 R should be used.
 
 ## CLOCK
 For best performance feed TMC5160 driver with common clock source up to 18 MHz (16MHz optimal).
