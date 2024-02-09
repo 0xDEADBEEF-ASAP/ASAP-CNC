@@ -45,7 +45,7 @@
 ![](https://raw.githubusercontent.com/0xDEADBEEF-ARM/ASAP-CNC/main/RSENS.png)
 [1]
 
- For 1.5A rated stepper motor the 0.22 R should be used.
+ For 1.5A rated stepper motor the 0.22 R should be used. For more info check link [2].
 
 ## CLOCK
  For best performance feed TMC5160 driver with common clock source up to 18 MHz (16MHz optimal).
@@ -53,5 +53,11 @@ Remove R10 and connect to pads clock source (50% duty cycle).
 
 # LINKS & SORURCES
 [TMC5160-DATASEET]
-[1]
-https://www.analog.com/media/en/technical-documentation/data-sheets/TMC5160A_datasheet_rev1.18.pdf
+ [1]
+ https://www.analog.com/media/en/technical-documentation/data-sheets/TMC5160A_datasheet_rev1.18.pdf
+
+ [2]
+ https://help.stepperonline.com/en/article/how-to-set-the-current-on-stepper-driver-rms-or-peak-1d29t68/
+
+
+
