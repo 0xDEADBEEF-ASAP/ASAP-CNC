@@ -32,17 +32,17 @@ Automatic connection and re-connection even if different serial port is opened.
 
 Sequential TMC-DRIVER programming - registers are programmed in order and single register can be re-programmed multiple times during single driver setup.
 
-# HARDWARE
+# HARDWARE CHANGES
 
 ![](https://raw.githubusercontent.com/0xDEADBEEF-ARM/ASAP-CNC/main/IMG_1b.jpg)
 
-# RSENS
+## RSENS
 Change Rsens resistors R022 according to this table:
 
 ![](https://raw.githubusercontent.com/0xDEADBEEF-ARM/ASAP-CNC/main/RSENS.png)
 
 
-# CLOCK
+## CLOCK
 For best performance feed TMC5160 driver with common clock source up to 18 MHz (16MHz optimal).
 Remove R10 and connect to pads clock source (50% duty cycle).
 
