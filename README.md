@@ -53,6 +53,7 @@ Remove R10 and connect to pads clock source (50% duty cycle).
 
 # LINKS & SORURCES
 [TMC5160-DATASEET]
+
  [1]
  https://www.analog.com/media/en/technical-documentation/data-sheets/TMC5160A_datasheet_rev1.18.pdf
 
