@@ -7,6 +7,7 @@ ASAP-CNC is complete, minimalistic, written from scratch system that can control
 All released software out there uses step/dir signals. ASAP-CNC use TMC5160 in MODE 1 instead, (with embedded motion controller) without step/dir signals (only SPI interface).
 
 ![](https://raw.githubusercontent.com/0xDEADBEEF-ARM/ASAP-CNC/main/TMC-MODE.png)
+[1]
 
 # System
 - responsive (!) multiplatform g-code sender, writen in python (using only native modules)
@@ -42,7 +43,7 @@ Sequential TMC-DRIVER programming - registers are programmed in order and single
 Change Rsens resistors R022 according to this table:
 
 ![](https://raw.githubusercontent.com/0xDEADBEEF-ARM/ASAP-CNC/main/RSENS.png)
-
+[1]
 
 ## CLOCK
 For best performance feed TMC5160 driver with common clock source up to 18 MHz (16MHz optimal).
@@ -50,5 +51,5 @@ Remove R10 and connect to pads clock source (50% duty cycle).
 
 # LINKS & SORURCES
 [TMC5160-DATASEET]
-
+[1]
 https://www.analog.com/media/en/technical-documentation/data-sheets/TMC5160A_datasheet_rev1.18.pdf
