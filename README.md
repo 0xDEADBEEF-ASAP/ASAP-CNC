@@ -32,6 +32,15 @@ Automatic connection and re-connection even if different serial port is opened.
 
 Sequential TMC-DRIVER programming - registers are programmed in order and single register can be re-programmed multiple times during single driver setup.
 
+#HARDWARE
+
+![](https://raw.githubusercontent.com/0xDEADBEEF-ARM/ASAP-CNC/main/IMG_1b.jpg)
+
+#Hardware changes
+Change Rsens resistors R022 according to this table:
+
+![](https://raw.githubusercontent.com/0xDEADBEEF-ARM/ASAP-CNC/main/RSENS.png)
+
 
 
 
