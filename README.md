@@ -45,7 +45,7 @@
 ![](https://raw.githubusercontent.com/0xDEADBEEF-ARM/ASAP-CNC/main/RSENS.png)
 [1]
 
- For 2.0A rated stepper motor the 0.12 R (2.0A RMS) should be used. Then current should be scaled to match 2.0A peak current. If stepper motor used for applicarion isnt getting hot, current can be scaled up. For full/half step simply Rsens can be choose according to RMS current (matching stepper motor rated current). For more info check link [2].
+ For 2.0A rated stepper motor the 0.12 R (2.0A RMS) should be used. Then current should be scaled to match 2.0A peak current. If stepper motor used for applicarion isnt getting hot, current can be scaled up. For full/half step simply Rsens can be choosed according to RMS current (matching stepper motor rated current). For more info check link [2].
 
 ## CLOCK
  For best performance feed TMC5160 driver with common clock source up to 18 MHz (16MHz optimal).
