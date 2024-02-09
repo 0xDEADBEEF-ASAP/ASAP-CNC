@@ -36,11 +36,14 @@ Sequential TMC-DRIVER programming - registers are programmed in order and single
 
 ![](https://raw.githubusercontent.com/0xDEADBEEF-ARM/ASAP-CNC/main/IMG_1b.jpg)
 
-# Hardware changes
+# RSENS
 Change Rsens resistors R022 according to this table:
 
 ![](https://raw.githubusercontent.com/0xDEADBEEF-ARM/ASAP-CNC/main/RSENS.png)
 
 
+# CLOCK
+For best performance feed TMC5160 driver with common clock source up to 18 MHz (16MHz optimal).
+Remove R10 and connect to pads clock source (50% duty cycle).
 
 
