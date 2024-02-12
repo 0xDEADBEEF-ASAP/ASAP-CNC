@@ -14,9 +14,6 @@
 - real time g-code interpreter for STM32H7, writen in C
 - stepper motor drivers TMC5160 in MODE 1
 
-# Gallery
-![](https://raw.githubusercontent.com/0xDEADBEEF-ARM/ASAP-CNC/main/ASAP-TMC-ADVANCED.gif)
-
 
 # Futures
 
@@ -32,6 +29,9 @@
 ---TMC-SIMPLE---
 
 ---TMC-ADVANCED---
+
+![](https://raw.githubusercontent.com/0xDEADBEEF-ARM/ASAP-CNC/main/ASAP-TMC-DRIVER-ADVANCED.gif)
+
 
  Sequential TMC-DRIVER programming - registers are programmed in order and single register can be re-programmed multiple times during single driver setup.
 
