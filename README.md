@@ -51,6 +51,11 @@
  For best performance feed TMC5160 driver with common clock source up to 18 MHz (16MHz optimal).
 Remove R10 and connect to pads clock source (50% duty cycle).
 
+## CURRENT measurements (ACS724-10-AB +/- 10A)
+
+![](https://raw.githubusercontent.com/0xDEADBEEF-ASAP/ASAP-CNC/main/ACS724.jpg)
+
+
 # LINKS & SORURCES
 [TMC5160-DATASEET]
 
