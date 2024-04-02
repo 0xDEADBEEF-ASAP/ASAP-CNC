@@ -56,6 +56,10 @@ Remove R10 and connect to pads clock source (50% duty cycle).
 
 ![](https://raw.githubusercontent.com/0xDEADBEEF-ASAP/ASAP-CNC/main/ACS724.jpg)
 
+![](https://raw.githubusercontent.com/0xDEADBEEF-ASAP/ASAP-CNC/main/ACS724.png)
+
+
+https://youtu.be/c74zXEftsE0
 
 # LINKS & SORURCES
 [TMC5160-DATASEET]
