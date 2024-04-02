@@ -52,6 +52,7 @@
 Remove R10 and connect to pads clock source (50% duty cycle).
 
 ## CURRENT measurements (ACS724-10-AB +/- 10A)
+120kHz analog output, 1us rise time.
 
 ![](https://raw.githubusercontent.com/0xDEADBEEF-ASAP/ASAP-CNC/main/ACS724.jpg)
 
