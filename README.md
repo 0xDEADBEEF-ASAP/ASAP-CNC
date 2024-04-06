@@ -75,7 +75,7 @@ Remove R10 and connect to pads clock source (50% duty cycle).
 
 # RELATED media
 
-3 axis coordinated move test:
+3 axis coordinated move test (nema17):
 [![current measure](https://github.com/0xDEADBEEF-ASAP/ASAP-CNC/blob/main/misc/vid_2.png?raw=true)](https://youtu.be/9pOCou4G9pE?feature=shared)
 
 
