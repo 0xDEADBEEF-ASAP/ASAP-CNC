@@ -6,7 +6,7 @@
 
  All released software out there uses step/dir signals. ASAP-CNC use TMC5160 in MODE 1 instead, (with embedded motion controller) without step/dir signals (only SPI interface).
 
-![](https://raw.githubusercontent.com/0xDEADBEEF-ARM/ASAP-CNC/main/TMC-MODE.png)
+![](https://raw.githubusercontent.com/0xDEADBEEF-ARM/ASAP-CNC/main/misc/TMC-MODE.png)
 [1]
 
 # System
@@ -30,41 +30,41 @@
 
 ---TMC-ADVANCED---
 
-![](https://raw.githubusercontent.com/0xDEADBEEF-ARM/ASAP-CNC/main/ASAP-TMC-DRIVER-ADVANCED.gif)
+![](https://raw.githubusercontent.com/0xDEADBEEF-ARM/ASAP-CNC/main/misc/ASAP-TMC-DRIVER-ADVANCED.gif)
 
 
  Sequential TMC-DRIVER programming - registers are programmed in order and single register can be re-programmed multiple times during single driver setup.
 
 # HARDWARE CHANGES
 
-![](https://raw.githubusercontent.com/0xDEADBEEF-ARM/ASAP-CNC/main/IMG_1b.jpg)
+![](https://raw.githubusercontent.com/0xDEADBEEF-ARM/ASAP-CNC/main/misc/IMG_1b.jpg)
 
 ## RSENS
  Change Rsens resistors R022 according to this table:
 
-![](https://raw.githubusercontent.com/0xDEADBEEF-ARM/ASAP-CNC/main/RSENS.png)
+![](https://raw.githubusercontent.com/0xDEADBEEF-ARM/ASAP-CNC/main/misc/RSENS.png)
 [1]
 
  For 2.0A rated stepper motor the 0.12 R (2.0A RMS) should be used. Then current should be scaled to match 2.0A peak current. If stepper motor used for application isn't getting hot, current can be scaled up. For more info check link [2].
 
- ![](https://raw.githubusercontent.com/0xDEADBEEF-ASAP/ASAP-CNC/main/Rsens_mix.jpg)
+ ![](https://raw.githubusercontent.com/0xDEADBEEF-ASAP/ASAP-CNC/main/misc/Rsens_mix.jpg)
 
- ![](https://raw.githubusercontent.com/0xDEADBEEF-ASAP/ASAP-CNC/main/TMC_Rsens_removed.png)
+ ![](https://raw.githubusercontent.com/0xDEADBEEF-ASAP/ASAP-CNC/main/misc/TMC_Rsens_removed.png)
 
- ![](https://raw.githubusercontent.com/0xDEADBEEF-ASAP/ASAP-CNC/main/Rsens_R040.jpg)
+ ![](https://raw.githubusercontent.com/0xDEADBEEF-ASAP/ASAP-CNC/main/misc/Rsens_R040.jpg)
 
 ## CLOCK
  For best performance feed TMC5160 driver with common clock source up to 18 MHz (16MHz optimal).
 Remove R10 and connect to pads clock source (50% duty cycle).
 
-![](https://raw.githubusercontent.com/0xDEADBEEF-ASAP/ASAP-CNC/main/R10.jpg)
+![](https://raw.githubusercontent.com/0xDEADBEEF-ASAP/ASAP-CNC/main/misc/R10.jpg)
 
 ## CURRENT measurements (ACS724-10-AB +/- 10A)
 120kHz analog output, 1us rise time. 5V supply voltage, 2,5V output offset (0A), 200mA/A.
 
-![](https://raw.githubusercontent.com/0xDEADBEEF-ASAP/ASAP-CNC/main/ACS724.jpg)
+![](https://raw.githubusercontent.com/0xDEADBEEF-ASAP/ASAP-CNC/main/misc/ACS724.jpg)
 
-![](https://raw.githubusercontent.com/0xDEADBEEF-ASAP/ASAP-CNC/main/ACS724.png)
+![](https://raw.githubusercontent.com/0xDEADBEEF-ASAP/ASAP-CNC/main/misc/ACS724.png)
 
 
 https://youtu.be/c74zXEftsE0
