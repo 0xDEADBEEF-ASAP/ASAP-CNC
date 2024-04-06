@@ -45,6 +45,8 @@
 ![](https://raw.githubusercontent.com/0xDEADBEEF-ARM/ASAP-CNC/main/misc/RSENS.png)
 [1]
 
+Rsens resistors are low impedance SMD 2512.
+
  For 2.0A rated stepper motor the 0.12 R (2.0A RMS) should be used. Then current should be scaled to match 2.0A peak current. If stepper motor used for application isn't getting hot, current can be scaled up. For more info check link [2].
 
  ![](https://raw.githubusercontent.com/0xDEADBEEF-ASAP/ASAP-CNC/main/misc/Rsens_mix.jpg)
