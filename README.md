@@ -82,5 +82,4 @@ Remove R10 and connect to pads clock source (50% duty cycle).
  [2]
  https://help.stepperonline.com/en/article/how-to-set-the-current-on-stepper-driver-rms-or-peak-1d29t68/
 
-[3]
-https://www.allegromicro.com/en/Products/Sense/Current-Sensor-ICs/Zero-To-Fifty-Amp-Integrated-Conductor-Sensor-ICs/ACS724-5
+[3] https://www.allegromicro.com/en/Products/Sense/Current-Sensor-ICs/Zero-To-Fifty-Amp-Integrated-Conductor-Sensor-ICs/ACS724-5
