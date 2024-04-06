@@ -66,7 +66,7 @@ Remove R10 and connect to pads clock source (50% duty cycle).
 ![](https://raw.githubusercontent.com/0xDEADBEEF-ASAP/ASAP-CNC/main/misc/R10.jpg)
 
 ## CURRENT measurements (ACS724-10-AB +/- 10A)
-120kHz analog output, 1us rise time. 5V supply voltage, 2,5V output offset (0A), 200mV/A.
+120kHz analog output, 1us rise time. 5V supply voltage, 2,5V output offset (0A), 200mV/A. [3]
 
 ![](https://raw.githubusercontent.com/0xDEADBEEF-ASAP/ASAP-CNC/main/misc/ACS724.jpg)
 
@@ -82,5 +82,5 @@ Remove R10 and connect to pads clock source (50% duty cycle).
  [2]
  https://help.stepperonline.com/en/article/how-to-set-the-current-on-stepper-driver-rms-or-peak-1d29t68/
 
-
-
+[3]
+https://www.allegromicro.com/en/Products/Sense/Current-Sensor-ICs/Zero-To-Fifty-Amp-Integrated-Conductor-Sensor-ICs/ACS724-5
