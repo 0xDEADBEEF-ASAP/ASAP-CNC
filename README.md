@@ -53,6 +53,10 @@
 
  ![](https://raw.githubusercontent.com/0xDEADBEEF-ASAP/ASAP-CNC/main/misc/Rsens_R040.jpg)
 
+R040 is for this engine (nema 34):
+
+![](https://github.com/0xDEADBEEF-ASAP/ASAP-CNC/blob/main/misc/Nema34_12_5Nm.jpg)
+
 ## CLOCK
  For best performance feed TMC5160 driver with common clock source up to 18 MHz (16MHz optimal).
 Remove R10 and connect to pads clock source (50% duty cycle).
