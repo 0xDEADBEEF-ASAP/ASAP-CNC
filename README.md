@@ -68,12 +68,16 @@ Remove R10 and connect to pads clock source (50% duty cycle).
 ## CURRENT measurements (ACS724-10-AB +/- 10A)
 120kHz analog output, 1us rise time. 5V supply voltage, 2,5V output offset (0A), 200mV/A. [3]
 
+Modules:
 ![](https://raw.githubusercontent.com/0xDEADBEEF-ASAP/ASAP-CNC/main/misc/ACS724.jpg)
 
+With ARK terminal:
 ![](https://raw.githubusercontent.com/0xDEADBEEF-ASAP/ASAP-CNC/main/misc/ACS724-a.jpg)
 
+Two channels:
 ![](https://raw.githubusercontent.com/0xDEADBEEF-ASAP/ASAP-CNC/main/misc/2xACS724.jpg)
 
+Single channel measurment:
 [![current measure](https://raw.githubusercontent.com/0xDEADBEEF-ASAP/ASAP-CNC/main/misc/vid_1.png)](https://youtu.be/c74zXEftsE0)
 
 # RELATED media
