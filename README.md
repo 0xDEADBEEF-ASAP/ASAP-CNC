@@ -72,6 +72,8 @@ Remove R10 and connect to pads clock source (50% duty cycle).
 
 ![](https://raw.githubusercontent.com/0xDEADBEEF-ASAP/ASAP-CNC/main/misc/ACS724-a.jpg)
 
+![](https://raw.githubusercontent.com/0xDEADBEEF-ASAP/ASAP-CNC/main/misc/2xACS724.jpg)
+
 [![current measure](https://raw.githubusercontent.com/0xDEADBEEF-ASAP/ASAP-CNC/main/misc/vid_1.png)](https://youtu.be/c74zXEftsE0)
 
 # RELATED media
